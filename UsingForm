@@ -1,0 +1,19 @@
+private Aes.KeySize keysize;
+
+private void button1_Click(object sender, System.EventArgs e)
+    {
+      if (radioButton1.Checked)
+        keysize = Aes.KeySize.Bits128;
+      else if (radioButton2.Checked)
+        keysize = Aes.KeySize.Bits192;
+      else
+        keysize = Aes.KeySize.Bits256;
+
+      byte[] plainText = new byte[16];
+      byte[] cipherText = new byte[16];  
+      
+      plainText = Encoding.Unicode.GetBytes(textBox1.Text.PadRight(8,' '));
+      AesLib.Aes a = new Aes(keysize, new byte[16]);
+      a.Cipher(plainText, cipherText);
+      textBox2.Text = Encoding.Unicode.GetString(cipherText);
+    }  // button1_Click()
