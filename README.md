@@ -1,2 +1,1 @@
-DynamicAES
-==========
+The purpose of this research is to update AES with a dynamic s-box in order to counter the timing vulnerabilities that exist in AES. Static s-box allows data analyses attack and the eventual captures of sub-keys using inverse SubByte knowing inverse s-box. We propose a novel yet simple design and implementation with a very low overhead cost to existing AES in order to update s-box to a dynamic s-box depending on a variable sub-key at each round. This way, static data analysis of the program flow and data injection cannot affect the AES security.
