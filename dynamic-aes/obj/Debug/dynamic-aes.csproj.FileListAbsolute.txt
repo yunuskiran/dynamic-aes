@@ -1,0 +1,9 @@
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\bin\Debug\dynamic-aes.exe.config
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\bin\Debug\dynamic-aes.exe
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\bin\Debug\dynamic-aes.pdb
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.csprojAssemblyReference.cache
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic_aes.Properties.Resources.resources
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.csproj.GenerateResource.cache
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.exe
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.pdb
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic_aes.FrmEncrypte.resources
