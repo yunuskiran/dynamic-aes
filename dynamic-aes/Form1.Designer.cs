@@ -1,6 +1,6 @@
 ﻿namespace dynamic_aes
 {
-    partial class FrmEncrypte
+    partial class FrmEncrypt
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnEncrpyte = new System.Windows.Forms.Button();
+            this.btnEncrypt = new System.Windows.Forms.Button();
             this.rbtn128 = new System.Windows.Forms.RadioButton();
             this.rbt192 = new System.Windows.Forms.RadioButton();
             this.rbt256 = new System.Windows.Forms.RadioButton();
@@ -40,15 +40,15 @@
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnEncrpyte
+            // btnEncrypt
             // 
-            this.btnEncrpyte.Location = new System.Drawing.Point(12, 102);
-            this.btnEncrpyte.Name = "btnEncrpyte";
-            this.btnEncrpyte.Size = new System.Drawing.Size(284, 23);
-            this.btnEncrpyte.TabIndex = 0;
-            this.btnEncrpyte.Text = "Encrypt";
-            this.btnEncrpyte.UseVisualStyleBackColor = true;
-            this.btnEncrpyte.Click += new System.EventHandler(this.btnEncrpyte_Click);
+            this.btnEncrypt.Location = new System.Drawing.Point(12, 102);
+            this.btnEncrypt.Name = "btnEncrypt";
+            this.btnEncrypt.Size = new System.Drawing.Size(284, 23);
+            this.btnEncrypt.TabIndex = 0;
+            this.btnEncrypt.Text = "Encrypt";
+            this.btnEncrypt.UseVisualStyleBackColor = true;
+            this.btnEncrypt.Click += new System.EventHandler(this.btnEncrpyt_Click);
             // 
             // rbtn128
             // 
@@ -128,7 +128,7 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "KeySize";
             // 
-            // FrmEncrypte
+            // FrmEncrypt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -138,8 +138,8 @@
             this.Controls.Add(this.txtResult);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtPlainText);
-            this.Controls.Add(this.btnEncrpyte);
-            this.Name = "FrmEncrypte";
+            this.Controls.Add(this.btnEncrypt);
+            this.Name = "FrmEncrypt";
             this.Text = "Aes Encryption";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -150,7 +150,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnEncrpyte;
+        private System.Windows.Forms.Button btnEncrypt;
         private System.Windows.Forms.RadioButton rbtn128;
         private System.Windows.Forms.RadioButton rbt192;
         private System.Windows.Forms.RadioButton rbt256;

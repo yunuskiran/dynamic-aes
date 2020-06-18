@@ -4,15 +4,15 @@ using System.Windows.Forms;
 
 namespace dynamic_aes
 {
-    public partial class FrmEncrypte : Form
+    public partial class FrmEncrypt : Form
     {
         private Aes.KeySize keysize;
-        public FrmEncrypte()
+        public FrmEncrypt()
         {
             InitializeComponent();
         }
 
-        private void btnEncrpyte_Click(object sender, EventArgs e)
+        private void btnEncrpyt_Click(object sender, EventArgs e)
         {
             if (rbtn128.Checked)
                 keysize = Aes.KeySize.Bits128;

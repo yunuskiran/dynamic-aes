@@ -16,7 +16,7 @@ namespace dynamic_aes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmEncrypte());
+            Application.Run(new FrmEncrypt());
         }
     }
 }

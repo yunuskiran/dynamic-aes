@@ -6,4 +6,4 @@ C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic_aes.Pro
 C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.csproj.GenerateResource.cache
 C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.exe
 C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic-aes.pdb
-C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic_aes.FrmEncrypte.resources
+C:\Users\TCYKIRAN\source\repos\dynamic-aes\dynamic-aes\obj\Debug\dynamic_aes.FrmEncrypt.resources
